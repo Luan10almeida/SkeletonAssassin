@@ -22,10 +22,10 @@ class Menu:
         while True:
             self.window.blit(source=self.surf, dest=self.rect)
             self.menu_text(150, 'Skeleton', (255, 128, 0 ), ((WIN_WIDTH / 2), 70))
-            self.menu_text(150, 'Assassin', (255, 128, 0), ((WIN_WIDTH / 2), 120))
+            self.menu_text(150, 'Assassin', (255, 128, 0), ((WIN_WIDTH / 2), 150))
 
             for i in range(len(MENU_OPTION)):
-                self.menu_text(50, MENU_OPTION[i], COLOR_WHITE, ((WIN_WIDTH / 2), 200 + 30 * i))
+                self.menu_text(50, MENU_OPTION[i], COLOR_WHITE, ((WIN_WIDTH / 2), 300 + 50 * i))
 
 
             pygame.display.flip()
