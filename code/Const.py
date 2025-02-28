@@ -8,13 +8,18 @@ COLOR_YELLOW = (255, 255, 128)
 
 #E
 ENTITY_SPEED = {
-    '1':0,
-    '2':1,
-    '3':2,
-    '4':3,
-    '5':4,
-    '6':5,
+    'Level1bg0':0,
+    'Level1bg1':1,
+    'Level1bg2':2,
+    'Level1bg3':3,
+    'Level1bg4':4,
+    'Level1bg5':5,
+    'Level1bg6':6,
+    'Level1bg7':7,
+    '0_Skeleton_Crusader_Running_000': 3,
 }
+
+
 
 # M
 MENU_OPTION = ('NEW GAME',
